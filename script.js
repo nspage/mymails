@@ -16,6 +16,8 @@ for (var i=0; i<document.getElementsByClassName('trash').length; i++) {
   }
   );
 }
+
+/**
 var doc = new jsPDF();
 var specialElementHandlers = {
     '#print-btn': function (element, renderer) {
@@ -30,3 +32,4 @@ $('#submit').click(function () {
     });
     doc.save('pdf-version.pdf');
 });
+**/
